@@ -1,0 +1,27 @@
+{
+  "questions": [
+    {
+      "type": "radio",
+      "question": "What feature of Amazon RDS helps to create globally redundant databases?",
+      "options": [
+        "Snapshots",
+        "Cross-Region read replicas",
+        "Provisioned IOPS",
+        "Automatic patching and updating"
+      ],
+      "answers": [1]
+    },
+    {
+      "type": "checkbox",
+      "question": "Which of the following are valid ways for a customer to interact with AWS services? (Choose two.)",
+      "options": [
+        "Software Development Kits",
+        "Software-as-a-service",
+        "Hybrid",
+        "Command line interface",
+        "On-premises"
+      ],
+      "answers": [0, 3]
+    }
+  ]
+}
