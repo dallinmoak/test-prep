@@ -22,6 +22,481 @@
         "On-premises"
       ],
       "answers": [0, 3]
+    },
+    {
+      "type": "radio",
+      "question": "According to AWS, what is the benefit of Elasticity?",
+      "options": [
+        "Minimize storage requirements by reducing logging and auditing activities",
+        "Create systems that scale to the required capacity based on changes in demand",
+        "Enable AWS to automatically select the most cost-effective services.",
+        "Accelerate the design process because recovery from failure is automated, reducing the need for testing"
+      ],
+      "answers": [1]
+    },
+    {
+      "type": "radio",
+      "question": "Which tool can you use to forecast your AWS spending?",
+      "options": [
+        "AWS Organizations",
+        "Amazon Dev Pay",
+        "AWS Trusted Advisor",
+        "AWS Cost Explorer"
+      ],
+      "answers": [3]
+    },
+    {
+      "type": "radio",
+      "question": "A Business Analyst would like to move away from creating complex database queries and static spreadsheets when generating regular reports for high-level management. They would like to publish insightful, graphically appealing reports with interactive dashboards. Which service can they use to accomplish this?",
+      "options": [
+        "Amazon QuickSight",
+        "Business Intelligence on Amazon Redshift",
+        "Amazon CloudWatch dashboards",
+        "Amazon Athena"
+      ],
+      "answers": [0]
+    },
+    {
+      "type": "radio",
+      "question": "A company is planning to transfer petabytes of data from on-premises locations to the AWS Cloud. Which of the following is the best service to use for this task?",
+      "options": [
+        "AWS Snowball",
+        "AWS Migration Hub",
+        "AWS DataSync",
+        "Amazon S3 Transfer Acceleration"
+      ],
+      "answers": [0]
+    },
+    {
+      "type": "radio",
+      "question": "What best describes the “Principle of Least Privilege”? Choose the correct answer from the options given below.",
+      "options": [
+        "All users should have the same baseline permissions granted to them to use basic AWS services.",
+        "Users should be granted permission to access only resources they need to do their assigned job.",
+        "Users should submit all access requests in written form so that there is a paper trail of who needs access to different AWS resources.",
+        "Users should always have a little more permission than they need."
+      ],
+      "answers": [1]
+    },
+    {
+      "type": "radio",
+      "question": "A web administrator maintains several public and private web-based resources for an organisation. Which service can they use to keep track of the expiry dates of SSL/TLS certificates as well as updating and renewal?",
+      "options": [
+        "AWS Data Lifecycle Manager",
+        "AWS License Manager",
+        "AWS Firewall Manager",
+        "AWS Certificate Manager"
+      ],
+      "answers": [3]
+    },
+    {
+      "type": "radio",
+      "question": "Which of the following is the responsibility of the customer to ensure the availability and backup of the EBS volumes?",
+      "options": [
+        "Delete the data and create a new EBS volume.",
+        "Create EBS snapshots.",
+        "Attach new volumes to EC2 Instances.",
+        "Create copies of EBS Volumes."
+      ],
+      "answers": [1]
+    },
+    {
+      "type": "radio",
+      "question": "Which of the following services can be used as an application firewall in AWS?",
+      "options": ["AWS Snowball", "AWS WAF", "AWS Firewall", "AWS Protection"],
+      "answers": [1]
+    },
+    {
+      "type": "radio",
+      "question": "Your design team is planning to design an application that will be hosted on the AWS Cloud. One of their main non-functional requirements is given below: Reduce inter-dependencies so failures do not impact other components. Which of the following concepts does this requirement relate to?",
+      "options": ["Integration", "Decoupling", "Aggregation", "Segregation"],
+      "answers": [1]
+    },
+    {
+      "type": "radio",
+      "question": "A manufacturing firm has recently migrated their application servers to the Amazon EC2 instance. The IT Manager is looking for the details of upcoming scheduled maintenance activities which AWS would be performing on AWS resources, that may impact the services on these EC2 instances. Which of the following services can alert you about the changes that can affect resources in your account?",
+      "options": [
+        "AWS Organizations",
+        "AWS Personal Health Dashboard",
+        "AWS Trusted Advisor",
+        "AWS Service Health Dashboard"
+      ],
+      "answers": [1]
+    },
+    {
+      "type": "radio",
+      "question": "Which of the following AWS services can be used to retrieve configuration changes made to AWS resources causing operational issues?",
+      "options": [
+        "Amazon Inspector",
+        "AWS CloudFormation",
+        "AWS Trusted Advisor",
+        "AWS Config"
+      ],
+      "answers": [3]
+    },
+    {
+      "type": "radio",
+      "question": "An organization runs several EC2 instances inside a VPC using three subnets, one for Development, one for Test, and one for Production. The Security team has some concerns about the VPC configuration. It requires restricting communication across the EC2 instances using Security Groups. Which of the following options is true for Security Groups related to the scenario?",
+      "options": [
+        "You can change a Security Group associated with an instance if the instance is in the running state.",
+        "You can change a Security Group associated with an instance if the instance is in the hibernate state.",
+        "You can change a Security Group only if there are no instances associated to it.",
+        "The only Security Group you can change is the Default Security Group."
+      ],
+      "answers": [0]
+    },
+    {
+      "type": "radio",
+      "question": "Which of the following features of Amazon RDS allows for better availability of databases? Choose the answer from the options given below.",
+      "options": [
+        "VPC Peering",
+        "Multi-AZ",
+        "Read Replicas",
+        "Data encryption"
+      ],
+      "answers": [1]
+    },
+    {
+      "type": "radio",
+      "question": "Your company wants to move an existing Oracle database to the AWS Cloud. Which of the following services can help facilitate this move?",
+      "options": [
+        "AWS Database Migration Service",
+        "AWS VM Migration Service",
+        "AWS Inspector",
+        "AWS Trusted Advisor"
+      ],
+      "answers": [0]
+    },
+    {
+      "type": "radio",
+      "question": "Which of the following services allows you to analyze EC2 Instances against pre-defined security templates to check for vulnerabilities?",
+      "options": [
+        "AWS Trusted Advisor",
+        "AWS Inspector",
+        "AWS WAF",
+        "AWS Shield"
+      ],
+      "answers": [1]
+    },
+    {
+      "type": "radio",
+      "question": "A website for an international sport governing body would like to serve its content to viewers from different parts of the world in their vernacular language. Which of the following services provide location-based web personalization using geolocation headers?",
+      "options": [
+        "Amazon CloudFront",
+        "Amazon EC2 Instance",
+        "Amazon Lightsail",
+        "Amazon Route 53"
+      ],
+      "answers": [0]
+    },
+    {
+      "type": "checkbox",
+      "question": "Which of the following can be used to protect against DDoS attacks? Choose 2 answers from the options given below.",
+      "options": ["AWS EC2", "AWS RDS", "AWS Shield", "AWS Shield Advanced"],
+      "answers": [2, 3]
+    },
+    {
+      "type": "radio",
+      "question": "Which of the following are the recommended resources to be deployed in the Amazon VPC private subnet?",
+      "options": [
+        "NAT Gateways",
+        "Bastion Hosts",
+        "Database Servers",
+        "Internet Gateways"
+      ],
+      "answers": [2]
+    },
+    {
+      "type": "radio",
+      "question": "A company wants to utilize AWS storage. For them, low storage cost is paramount. The data is rarely retrieved and a data retrieval time of 13-14 hours is acceptable for them. What is the best storage option to use?",
+      "options": [
+        "Amazon S3 Glacier",
+        "S3 Glacier Deep Archive",
+        "Amazon EBS volumes",
+        "AWS CloudFront"
+      ],
+      "answers": [1]
+    },
+    {
+      "type": "radio",
+      "question": "Which AWS service provides a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability?",
+      "options": ["AWS RDS", "DynamoDB", "Oracle RDS", "Elastic Map Reduce"],
+      "answers": [1]
+    },
+    {
+      "type": "radio",
+      "question": "For which of the following AWS resources, the Customer is responsible for the infrastructure-related security configurations?",
+      "options": ["Amazon RDS", "Amazon DynamoDB", "Amazon EC2", "AWS Fargate"],
+      "answers": [2]
+    },
+    {
+      "type": "checkbox",
+      "question": "In the shared responsibility model for infrastructure services, such as Amazon Elastic Compute Cloud, which of the below two are customers responsibility?",
+      "options": [
+        "Network infrastructure",
+        "Amazon Machine Images (AMIs)",
+        "Virtualization infrastructure",
+        "Physical security of hardware",
+        "Policies and configuration"
+      ],
+      "answers": [1, 4]
+    },
+    {
+      "type": "radio",
+      "question": "AWS offers two savings plans to enable more savings and flexibility for its customers, namely, compute saving plans and EC2 Instance Savings plans. Which of the below statement is FALSE regarding Saving Plans?",
+      "options": [
+        "Capacity Reservations are not provided with Saving Plans.",
+        "Savings Plans are available for all the regions.",
+        "Savings plans will apply on ‘On-Demand Capacity Reservations’ that customers can allocate for their needs.",
+        "The prices for Savings Plans do not change based on the amount of hourly commitment."
+      ],
+      "answers": [1]
+    },
+    {
+      "type": "radio",
+      "question": "Which of the below-listed services is a region-based AWS service?",
+      "options": [
+        "AWS IAM",
+        "Amazon EFS",
+        "Amazon Route 53",
+        "Amazon CloudFront"
+      ],
+      "answers": [1]
+    },
+    {
+      "type": "radio",
+      "question": "Which of the following LightSail Wizard allows the customers to “create a copy of the LightSail instance in EC2”?",
+      "options": [
+        "LightSail Backup",
+        "LightSail Copy",
+        "Upgrade to EC2",
+        "LightSail-EC2 snapshot"
+      ],
+      "answers": [2]
+    },
+    {
+      "type": "radio",
+      "question": "Which of the following features of Amazon Connect helps better customer engagement on AWS Cloud ?",
+      "options": [
+        "Push Notification",
+        "High Quality Audio",
+        "Mailbox Simulator",
+        "Reputation Dashboard"
+      ],
+      "answers": [1]
+    },
+    {
+      "type": "radio",
+      "question": "A large IT company is looking to enable its large user base to remotely access Linux desktops from any location. Which service can be used for this purpose ?",
+      "options": [
+        "Amazon Cognito",
+        "Amazon AppStream 2.0",
+        "Amazon WorkSpaces",
+        "Amazon WorkLink"
+      ],
+      "answers": [2]
+    },
+    {
+      "type": "radio",
+      "question": "Users in the Developer Team need to deploy a multi-tier web application. Which service can be used to create a customized portfolio that will help users for quick deployment?",
+      "options": [
+        "AWS Config",
+        "AWS Code Deploy",
+        "AWS Service Catalog",
+        "AWS Cloud Formation"
+      ],
+      "answers": [2]
+    },
+    {
+      "type": "radio",
+      "question": "A large Oil & gas company is planning to deploy a high-volume application on multiple Amazon EC2 instances. Which of the following can help to reduce operational expenses?",
+      "options": [
+        "Deploy Amazon EC2 instance with Auto-scaling",
+        "Deploy Amazon EC2 instance in multiple AZ’s",
+        "Deploy Amazon EC2 instance with Amazon instance store-backed AMI",
+        "Deploy Amazon EC2 instance with Cluster placement group"
+      ],
+      "answers": [0]
+    },
+    {
+      "type": "checkbox",
+      "question": "Which of the following activities are within the scope of AWS Support?",
+      "options": [
+        "Troubleshooting API issues",
+        "Code Development",
+        "Debugging custom software",
+        "Third-party application configuration on AWS resources",
+        "Database query tuning"
+      ],
+      "answers": [0, 3]
+    },
+    {
+      "type": "checkbox",
+      "question": "I have a huge amount of data (images, documents). I want to store them on AWS storage service S3 and know how S3 is priced to make informed decisions. Which of the following is accounted as a cost for S3 storage? Select TWO.",
+      "options": [
+        "While uploading data to an S3 bucket",
+        "Lifecycle transition requests",
+        "Outbound data transfer from S3 in US-West to an EC2 instance in US-West",
+        "Outbound data transfer to Amazon CloudFront",
+        "Outbound data transfer from S3 in US-East to an EC2 instance in US-West"
+      ],
+      "answers": [1, 4]
+    },
+    {
+      "type": "checkbox",
+      "question": "I am using the Amazon Simple Notification Service to send notifications to alert admins whenever the CPU utilization of an EC2 instance crosses 70%. Which of the following can be subscribers to an SNS Topic? (Select TWO)",
+      "options": [
+        "Email",
+        "Amazon S3",
+        "AWS Lambda",
+        "Amazon CloudWatch",
+        "Amazon DynamoDB streams"
+      ],
+      "answers": [0, 2]
+    },
+    {
+      "type": "radio",
+      "question": "I require different levels of access for my application that is installed on an EC2 instance. I have configured an ENI for the same purpose. Which of the following statement is incorrect?",
+      "options": [
+        "I can detach the primary ENI of my EC2 instance and connect it to another instance for moving its Elastic IP",
+        "I can configure a Security Group for my ENI and restrict traffic to the EC2 instance",
+        "I can detach a secondary ENI containing a Private IP from one EC2 instance and attach it to another",
+        "I can attach an Elastic IP to an EC2 instance in another subnet by releasing it from the ENI in the current subnet to which it is currently attached to"
+      ],
+      "answers": [0]
+    },
+    {
+      "type": "radio",
+      "question": "To make programmatic calls to AWS, a user was provided an access key ID and secret access key. However, the user has now forgotten the shared credentials and cannot make the required programmatic calls. How can an access key ID and secret access key be provided to the user?",
+      "options": [
+        "Use the “Forgot Password” Option",
+        "Use “Create New Access Key” by logging in to AWS Management Console as the root user",
+        "Credentials cannot be generated",
+        "Raise a ticket with AWS Support"
+      ],
+      "answers": [1]
+    },
+    {
+      "type": "checkbox",
+      "question": "Which of the following statements accurately describe a function of AWS Secrets Manager? [Select Two]",
+      "options": [
+        "Encrypts authentication information in code, ensuring that it is unreadable, that is, not in plain-text.",
+        "Replaces the need to hardcode authentication credentials in code.",
+        "Makes it possible to include an API call in code that retrieves authentication information from a central repository.",
+        "Automatically rotates and updates the code in the application build, ensuring that repositories are kept up to date.",
+        "Facilitates the embedding of authentication information in code during runtime."
+      ],
+      "answers": [1, 2]
+    },
+    {
+      "type": "radio",
+      "question": "Which of the following statements accurately describes AWS IQ?",
+      "options": [
+        "AWS IQ is an artificial intelligence service that predicts cloud infrastructure costs.",
+        "AWS IQ is a service that offers free cloud computing resources to AWS customers.",
+        "AWS IQ is a platform that connects AWS customers with certified freelancers, experts, and consulting firms for various AWS-related tasks.",
+        "AWS IQ is a hardware appliance for secure data storage in AWS data centers."
+      ],
+      "answers": [2]
+    },
+    {
+      "type": "radio",
+      "question": "You are developing a web application that requires real-time collaboration features and seamless integration with AWS services for the backend. Which AWS service should you consider for simplifying the development and implementation of these features?",
+      "options": [
+        "AWS AppSync",
+        "AWS Amplify",
+        "Amazon RDS",
+        "AWS Device Farm"
+      ],
+      "answers": [1]
+    },
+    {
+      "type": "radio",
+      "question": "You are working on a software development project that involves managing and distributing software packages and dependencies across your development team. You need a secure and scalable solution for storing and sharing these artifacts. Which AWS service should you consider for this purpose?",
+      "options": [
+        "AWS CodeCommit",
+        "AWS CodeStar",
+        "AWS CodeBuild",
+        "AWS CodeArtifact"
+      ],
+      "answers": [3]
+    },
+    {
+      "type": "radio",
+      "question": "You are tasked with building and deploying a machine-learning model to predict customer preferences for an e-commerce platform. Which AWS service provides end-to-end machine learning capabilities?",
+      "options": [
+        "Amazon SageMaker",
+        "Amazon Lex",
+        "Amazon Polly",
+        "Amazon Kendra"
+      ],
+      "answers": [0]
+    },
+    {
+      "type": "radio",
+      "question": "In a customer support application, there is a need for a chatbot to assist users in finding quick answers to frequently asked questions. Which AWS service is suitable for building this chatbot with natural language understanding capabilities?",
+      "options": [
+        "Amazon Rekognition",
+        "Amazon Lex",
+        "Amazon Polly",
+        "Amazon Kendra"
+      ],
+      "answers": [1]
+    },
+    {
+      "type": "radio",
+      "question": "What role does Amazon AppStream play in helping organizations?",
+      "options": [
+        "It provides cloud-based virtual machines for running containerized applications.",
+        "It automates and manages AWS resource provisioning.",
+        "It delivers desktop applications securely to users via streaming.",
+        "It hosts websites and web applications with high availability."
+      ],
+      "answers": [2]
+    },
+    {
+      "type": "radio",
+      "question": "You are developing a mobile application that requires real-time data synchronization and offline access to your backend data. Which AWS service should you consider for building the GraphQL API to meet these requirements?",
+      "options": [
+        "AWS Amplify",
+        "AWS Device Farm",
+        "Amazon AppStream",
+        "AWS AppSync"
+      ],
+      "answers": [3]
+    },
+    {
+      "type": "radio",
+      "question": "In a software development project, a team needs a service to automate the compilation and testing of code changes in a continuous integration (CI) environment. Which AWS service is suitable for this purpose?",
+      "options": [
+        "AWS CodeBuild",
+        "AWS CodeDeploy",
+        "AWS CodePipeline",
+        "AWS CodeCommit"
+      ],
+      "answers": [0]
+    },
+    {
+      "type": "radio",
+      "question": "In a production environment, there is a requirement to automate the entire process of managing and delivering changes, including building, testing, and deploying resources. Which AWS service should be considered to create an end-to-end continuous integration and continuous deployment (CI/CD) pipeline?",
+      "options": [
+        "AWS CodeDeploy",
+        "AWS CodeBuild",
+        "AWS CodePipeline",
+        "AWS CodeCommit"
+      ],
+      "answers": [2]
+    },
+    {
+      "type": "radio",
+      "question": "In a remote work scenario, your organization needs to provide a virtual desktop experience for employees, allowing them to access their desktop environments securely from anywhere. Which AWS service should you consider for this purpose?",
+      "options": [
+        "Amazon WorkSpaces",
+        "Amazon WorkSpaces Web",
+        "Amazon AppStream 2.0",
+        "AWS Device Farm"
+      ],
+      "answers": [0]
     }
   ]
 }
